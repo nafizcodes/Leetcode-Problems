@@ -14,5 +14,4 @@ class Solution:
                 return (dfs(p.left, q.left) and dfs(p.right, q.right))
             else:
                 return False
-            
         return dfs(p, q)
