@@ -6,7 +6,7 @@ class Solution:
             diff = target - n
 
             if diff in map:
-                return [[i, map[diff]]]
+                return [i, map[diff]]
 
             map[n] = i
 
