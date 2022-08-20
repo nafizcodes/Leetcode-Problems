@@ -28,6 +28,7 @@ class Codec:
             if vals and minVal < vals[0] < maxVal:
                 val = vals.pop(0)
                 node = TreeNode(val)
+                
                 node.left = build(minVal, val)
                 node.right = build(val, maxVal)
                 return node
