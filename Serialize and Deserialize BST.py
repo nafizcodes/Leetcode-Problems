@@ -31,6 +31,7 @@ class Codec:
                 
                 node.left = build(minVal, val)
                 node.right = build(val, maxVal)
+                
                 return node
 
         return build(float('-infinity'), float('infinity'))
