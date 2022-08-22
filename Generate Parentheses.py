@@ -17,6 +17,7 @@ class Solution:
             if closedN < openN:
                 stack.append(')')
                 backtrack(openN, closedN + 1)
+                
                 stack.pop()
                 
         backtrack(0, 0)
