@@ -9,7 +9,9 @@ class Solution:
             
             #base case
             if i == len(nums):
+
                 res.append(subset.copy())   #also subset([::]) is valid
+                
                 return
             
             
