@@ -17,6 +17,7 @@ class Solution:
                 
             
             result.extend(perms)  #extend add multiple items to the list
+            
             nums.append(n) #this adds the n back to the nums for next iteration
             
         return result
