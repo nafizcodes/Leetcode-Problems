@@ -14,6 +14,7 @@ class Solution:
                 return
             
             for n in count:
+                
                 if count[n] > 0:
                     perm.append(n)
                     count[n] -= 1
