@@ -5,6 +5,7 @@ class Solution:
         
         for n in nums:       
             if currSum < 0:
+                
                 currSum = 0
                 
             currSum += n
